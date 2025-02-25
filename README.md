@@ -120,17 +120,17 @@ S. No.,Product Name,Input Image Urls,Output Image Urls
 
 ### 📤 Upload CSV file
 ```bash
-curl -X POST -F "file=@test.csv" http://localhost:3000/api/upload
+curl -X POST -F "file=@test.csv" https://image-processing-system-os5s.onrender.com/upload
 ```
 
 ### 🔍 Check processing status
 ```bash
-curl http://localhost:3000/api/status/your-request-id
+curl https://image-processing-system-os5s.onrender.com/status/your-request-id
 ```
 
 ### 📥 Download processed CSV
 ```bash
-curl http://localhost:3000/api/status/your-request-id/csv
+curl https://image-processing-system-os5s.onrender.com/status/your-request-id/csv
 ```
 
 ---
@@ -235,15 +235,9 @@ image-processing-system/
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** - see the `LICENSE` file for details.
-
----
-
 ## 👥 Authors
 
-👤 **Your Name** - [GitHub Profile](https://github.com/yourusername)
+👤 **Saurav Suman** - [GitHub Profile](https://github.com/lucifer123saurav)
 
 ---
 
